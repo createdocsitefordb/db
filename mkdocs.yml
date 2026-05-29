@@ -26,6 +26,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.tabs
     - navigation.expand
+    - navigation.path
   font:
     text: Plus Jakarta Sans
     code: JetBrains Mono
