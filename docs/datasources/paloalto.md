@@ -1,4 +1,4 @@
-# :material-firewall: Ingest Palo Alto Networks Firewall Data via Syslog into Databahn
+# :material-router-network: Ingest Palo Alto Networks Firewall Data via Syslog into Databahn
 Use this procedure to ingest logs via Syslog
 
 ## :material-clipboard-check-outline: Access Prerequisites
