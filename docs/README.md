@@ -1,6 +1,6 @@
-# 🚀 Welcome! You’re in the right place to learn about Databahn platform.
+# 🚀 Power your security operations with Databahn.
 
-Start exploring features, integrations, and setup guides step by step.
+Discover integrations, data pipelines, and platform capabilities — all in one place.
 
 <div class="grid cards" markdown>
 
