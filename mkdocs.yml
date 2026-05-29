@@ -6,9 +6,9 @@ nav:
   - Home: README.md
   - Getting Started: gettingstarted.md
   - Data Sources:
-      - Crowdstrike: datasources/crowdstrike.md
-      - Microsoft EntraID: datasources/entraid.md
-      - Palo Alto: datasources/paloalto.md
+      - CrowdStrike: datasources/crowdstrike.md
+      - Microsoft Entra ID: datasources/entraid.md
+      - Palo Alto Networks: datasources/paloalto.md
 
   - SIEM Integrations:
       - Overview: integrations/overview.md

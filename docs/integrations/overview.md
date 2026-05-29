@@ -14,7 +14,7 @@ Databahn:
 
 Databahn can send filtered security events to:
 
-* Microsoft Microsoft Sentinel
+* Microsoft Sentinel
 * Splunk
 * IBM QRadar
 

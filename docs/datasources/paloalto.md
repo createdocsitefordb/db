@@ -1,9 +1,9 @@
-# Ingest Palo Alto Firewall Data via Syslog into Databahn
+# Ingest Palo Alto Networks Firewall Data via Syslog into Databahn
 Use this procedure to ingest logs via Syslog
 
 ## Access Prerequisites
 
-* Admin access to Palo Alto firewall
+* Admin access to a Palo Alto Networks firewall
 * Permission to configure:
 * Syslog server profiles
 * Log forwarding profiles

@@ -1,4 +1,4 @@
-# MICROSOFT SENTINEL INTEGRATION
+# Microsoft Sentinel Integration
 
 ## Overview
 

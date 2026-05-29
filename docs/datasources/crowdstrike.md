@@ -40,7 +40,7 @@ In Databahn:
 
 ### Step 2: Create S3 bucket
 
-Example:crowdstrike-telemetry-bucket
+Example: crowdstrike-telemetry-bucket
 
 ### Step 3: Create SQS queue
 

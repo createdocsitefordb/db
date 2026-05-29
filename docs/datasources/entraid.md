@@ -10,7 +10,7 @@ This includes:
 
 ## Prerequisites
 
-* Azure/Entra admin access
+* Microsoft Entra ID admin access
 * Tenant ID
 * App registration permissions
 
@@ -25,7 +25,7 @@ Required API permissions:
 
 ### Step 1: Register application
 
-* Go to Microsoft Entra Admin Center
+* Go to the [Microsoft Entra admin center](https://entra.microsoft.com/)
 * Navigate to App registrations
 * Click New registration
 * Save:
@@ -35,7 +35,7 @@ Required API permissions:
 ### Step 2: Configure API permissions
 
 * Open your app
-* Go to API Permissions
+* Go to API permissions
 * Add Microsoft Graph permissions:
   * AuditLog.Read.All
   * Directory.Read.All

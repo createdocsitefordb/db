@@ -24,7 +24,7 @@ Discover integrations, data pipelines, and platform capabilities — all in one 
 
     ---
 
-    Ingest security logs from CrowdStrike, Palo Alto, and Entra ID seamlessly.
+    Ingest security logs from CrowdStrike, Palo Alto Networks, and Microsoft Entra ID seamlessly.
 
     [:octicons-arrow-right-24: Explore connectors](datasources/overview.md)
 

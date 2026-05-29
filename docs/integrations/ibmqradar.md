@@ -1,4 +1,4 @@
-# IBM QRADAR Integration
+# IBM QRadar Integration
 
 ## Overview
 
