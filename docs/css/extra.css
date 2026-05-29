@@ -163,6 +163,51 @@ body,
   font-weight: 600;
 }
 
+/* Footer: copyright centered, social icons on the right */
+.md-footer-meta__inner.md-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.md-footer-meta__inner .md-copyright {
+  grid-column: 2;
+  justify-self: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8125rem;
+  color: var(--site-text-muted);
+}
+
+/* Hide Material for MkDocs credit if it appears in older builds */
+.md-copyright a[href*="mkdocs-material"],
+.md-copyright a[href*="squidfunk"] {
+  display: none !important;
+}
+
+.md-footer-meta__inner .md-social {
+  grid-column: 3;
+  justify-self: end;
+  padding: 0;
+  margin: 0;
+}
+
+.md-footer-meta__inner .md-social__link {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.md-footer-meta__inner .md-social__link:hover {
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+}
+
 .md-footer {
   font-size: 0.8125rem;
   color: var(--site-text-muted);

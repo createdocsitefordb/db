@@ -19,6 +19,7 @@ nav:
   - Release Notes: releasenotes_2026.md
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/company-logo.png
   features:
     - navigation.instant
@@ -47,6 +48,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/databahn-ai
+    - icon: fontawesome/solid/globe
+      link: https://www.databahn.ai/
 
 extra_css:
   - css/extra.css
