@@ -1,52 +1,39 @@
+# 🚀 Welcome! You’re in the right place to learn about Databahn platform.
+
+Start exploring features, integrations, and setup guides step by step.
+
 <div class="grid cards" markdown>
 
--   __Getting Started__
+-   :material-rocket-launch: __Getting Started__
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    High-level overview of Databahn and its capabilities.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Start setup](gettingstarted.md)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Architecture Overview__
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } __SIEM Integrations__
+-   :material-link-variant: __SIEM Integrations__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Connect Databahn effortlessly with leading SIEM platforms for unified security visibility.
 
-    [:octicons-arrow-right-24: Customization](#)
+    [:octicons-arrow-right-24: View integrations](integrations/overview.md)
 
--   :material-scale-balance:{ .lg .middle } __Data Sources or Connectors__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-    
--   :material-scale-balance:{ .lg .middle } __Data Sources or Connectors__
+-   :material-database: __Data Sources__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Ingest security logs from CrowdStrike, Palo Alto, and Entra ID seamlessly.
 
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24: Explore connectors](datasources/overview.md)
 
--   :material-scale-balance:{ .lg .middle } __Data Sources or Connectors__
+-   :material-clipboard-text-clock: __Release Notes__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Stay updated with latest features, improvements, and important product changes.
 
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24: See updates](releasenotes_2026.md)
 
 </div>
