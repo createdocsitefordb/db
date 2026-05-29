@@ -1,4 +1,4 @@
-# 🚀 Power your security operations with Databahn.
+# :material-rocket-launch: Power your security operations with Databahn
 
 Discover integrations, data pipelines, and platform capabilities — all in one place.
 

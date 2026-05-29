@@ -1,4 +1,4 @@
-# Ingest Identity Logs from Microsoft Entra ID using Microsoft Graph API
+# :material-microsoft-azure: Ingest Identity Logs from Microsoft Entra ID using Microsoft Graph API
 
 Use this procedure to send identity and authentication logs from Microsoft Entra ID into Databahn using Microsoft Graph API.
 
@@ -8,7 +8,7 @@ This includes:
 * Audit logs
 * User activity logs
 
-## Prerequisites
+## :material-clipboard-check-outline: Prerequisites
 
 * Microsoft Entra ID admin access
 * Tenant ID
@@ -21,7 +21,7 @@ Required API permissions:
 * SecurityEvents.Read.All (optional)
 
 
-## Step-by-step setup
+## :material-stairs: Step-by-Step Setup
 
 ### Step 1: Register application
 

@@ -1,4 +1,4 @@
-# Ingest CrowdStrike Logs via AWS SQS / S3
+# :material-shield-bug: Ingest CrowdStrike Logs via AWS SQS / S3
 
 Logs from CrowdStrike are exported into AWS and ingested into Databahn.
 
@@ -7,7 +7,7 @@ Two ingestion options are supported:
 Option A: S3 polling (simple)
 Option B: S3 + SQS (recommended, real-time)
 
-## S3 POLLING METHOD
+## :material-bucket-outline: S3 Polling Method
 
 ### Step 1: Enable CrowdStrike export
 
@@ -31,7 +31,7 @@ In Databahn:
 * Wait for logs
 * Confirm ingestion in dashboard
 
-## S3 + SQS EVENT-DRIVEN METHOD (RECOMMENDED)
+## :material-message-arrow-right: S3 + SQS Event-Driven Method (Recommended)
 
 ### Step 1: Enable CrowdStrike export
 

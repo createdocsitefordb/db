@@ -1,10 +1,10 @@
-# Microsoft Sentinel Integration
+# :material-shield-search: Microsoft Sentinel Integration
 
-## Overview
+## :material-information-outline: Overview
 
 Use this procedure to send Databahn strong security signals into Microsoft Sentinel.
 
-## Steps
+## :material-stairs: Steps
 
 ### Step 1: Collect Sentinel details
 

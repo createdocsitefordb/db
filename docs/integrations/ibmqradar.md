@@ -1,10 +1,10 @@
-# IBM QRadar Integration
+# :material-radar: IBM QRadar Integration
 
-## Overview
+## :material-information-outline: Overview
 
 Use this procedure to send strong signals to IBM QRadar using Syslog.
 
-## Steps
+## :material-stairs: Steps
 
 ### Step 1: Configure QRadar log source
 

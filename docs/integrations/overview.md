@@ -1,4 +1,4 @@
-# Overview
+# :material-sitemap: SIEM Integrations Overview
 
 In this setup, Databahn is the central security data platform.
 
@@ -10,7 +10,7 @@ Databahn:
 * Identifies high-confidence security signals
 * Forwards only those strong signals to external SIEM platforms
 
-### Supported SIEM Destinations
+### :material-export: Supported SIEM Destinations
 
 Databahn can send filtered security events to:
 
@@ -18,9 +18,9 @@ Databahn can send filtered security events to:
 * Splunk
 * IBM QRadar
 
-### PREREQUISITES
+### :material-clipboard-list: Prerequisites
 
-#### Databahn prerequisites
+#### :material-cog: Databahn Prerequisites
 
 Before configuring SIEM export:
 
@@ -29,27 +29,27 @@ Before configuring SIEM export:
 * SIEM export module must be active
 * Admin access to SIEM integration settings
 
-#### SIEM prerequisites
+#### :material-server-security: SIEM Prerequisites
 
-##### Microsoft Sentinel
+##### :material-shield-search: Microsoft Sentinel
 
 * Log Analytics Workspace created
 * Workspace ID available
 * Primary Key OR DCR/DCE endpoint available
 
-##### Splunk
+##### :material-chart-line: Splunk
 
 * HTTP Event Collector (HEC) enabled
 * HEC token generated
 * Index created (e.g., security)
 
-##### IBM QRadar
+##### :material-radar: IBM QRadar
 
 * Syslog receiver enabled
 * QRadar IP address available
 * Port configured (usually 514 or 6514)
 
-### Network requirements
+### :material-lan: Network Requirements
 
 Databahn must be able to reach SIEM endpoints:
 

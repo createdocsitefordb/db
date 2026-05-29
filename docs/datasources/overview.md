@@ -1,4 +1,4 @@
-# Log Ingestion into Databahn
+# :material-database: Log Ingestion into Databahn
 
 Databahn ingests logs from three primary categories:
 

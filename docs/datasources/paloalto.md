@@ -1,7 +1,7 @@
-# Ingest Palo Alto Networks Firewall Data via Syslog into Databahn
+# :material-firewall: Ingest Palo Alto Networks Firewall Data via Syslog into Databahn
 Use this procedure to ingest logs via Syslog
 
-## Access Prerequisites
+## :material-clipboard-check-outline: Access Prerequisites
 
 * Admin access to a Palo Alto Networks firewall
 * Permission to configure:
@@ -9,7 +9,7 @@ Use this procedure to ingest logs via Syslog
 * Log forwarding profiles
 * Security policy rules
 
-## Step 1: Configure Syslog Server Profile
+## :material-server-network: Step 1: Configure Syslog Server Profile
 
 On Palo Alto Networks firewall:
 
@@ -25,7 +25,7 @@ Configure:
 - Protocol: UDP / TCP / TLS
 - Facility: LOG_LOCAL0–LOG_LOCAL7
 
-## Step 2: Configure Log Forwarding Profile
+## :material-forward: Step 2: Configure Log Forwarding Profile
 
 Navigate to Objects → Log Forwarding → Add
 
@@ -39,13 +39,13 @@ Select logs:
 
 Attach Syslog profile created above.
 
-## Step 3: Apply to Security Policy
+## :material-shield-lock: Step 3: Apply to Security Policy
 
 Navigate Policies → Security → (select rule)
 
 Under Actions tab, select Log Forwarding Profile
 
-## Step 4: Commit Configuration
+## :material-check-circle: Step 4: Commit Configuration
 
 Click Commit and then click Apply Changes
 

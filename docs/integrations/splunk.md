@@ -1,10 +1,10 @@
-# Splunk Integration
+# :material-chart-line: Splunk Integration
 
-## Overview
+## :material-information-outline: Overview
 
 Use this procedure to send strong signals to Splunk via HTTP Event Collector (HEC).
 
-## Steps
+## :material-stairs: Steps
 
 ### Step 1: Enable HEC in Splunk
 
