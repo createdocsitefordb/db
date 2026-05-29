@@ -1,7 +1,7 @@
 site_name: Welcome to Databahn documentation
 
 nav:
-  - Home: about.md
+  - Home: README.md
   - Getting Started: gettingstarted.md
   - Data Sources:
       - Crowdstrike: datasources/crowdstrike.md
