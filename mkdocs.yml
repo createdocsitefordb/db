@@ -6,6 +6,7 @@ nav:
   - Home: README.md
   - Getting Started: gettingstarted.md
   - Data Sources:
+      - Overview: datasources/overview.md
       - CrowdStrike: datasources/crowdstrike.md
       - Microsoft Entra ID: datasources/entraid.md
       - Palo Alto Networks: datasources/paloalto.md
