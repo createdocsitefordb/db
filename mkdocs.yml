@@ -1,0 +1,49 @@
+site_name: Welcome to Databahn documentation
+
+nav:
+  - Home: about.md
+  - Getting Started: gettingstarted.md
+  - Data Sources:
+      - Crowdstrike: datasources/crowdstrike.md
+      - Microsoft EntraID: datasources/entraid.md
+      - Palo Alto: datasources/paloalto.md
+
+  - SIEM Integrations:
+      - Overview: integrations/overview.md
+      - Splunk: integrations/splunk.md
+      - Microsoft Sentinel: integrations/microsoftsentinel.md
+      - IBM QRadar: integrations/ibmqradar.md
+
+  - Release Notes: releasenotes_2026.md
+theme:
+  name: material
+  logo: assets/company-logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.expand
+  font:
+    text: Arial
+  palette:
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - css/extra.css
