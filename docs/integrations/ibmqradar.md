@@ -2,7 +2,7 @@
 
 ## :material-information-outline: Overview
 
-Use this procedure to send strong signals to IBM QRadar using Syslog.
+Use this procedure to send logs from Databahn to IBM QRadar.
 
 ## :material-stairs: Steps
 
