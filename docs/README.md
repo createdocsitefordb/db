@@ -10,7 +10,7 @@ Discover integrations, data pipelines, and platform capabilities — all in one 
 
     High-level overview of Databahn and its capabilities.
 
-    [:octicons-arrow-right-24: Start setup](gettingstarted.md)
+    [:octicons-arrow-right-24: Learn more](gettingstarted.md)
 
 -   :material-link-variant: __SIEM Integrations__
 
