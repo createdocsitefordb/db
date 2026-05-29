@@ -1,6 +1,6 @@
 # :material-database: Log Ingestion into Databahn
 
-Databahn ingests logs from three primary categories:
+Databahn ingests logs from three primary connectors/sources:
 
 * Network logs via Palo Alto Networks (Syslog)
 * Identity logs via Microsoft Entra ID (API)
