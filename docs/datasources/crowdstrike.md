@@ -4,8 +4,8 @@ Logs from CrowdStrike are exported into AWS and ingested into Databahn.
 
 Two ingestion options are supported:
 
-Option A: S3 polling (simple)
-Option B: S3 + SQS (recommended, real-time)
+* Option A: S3 polling (simple)
+* Option B: S3 + SQS (recommended, real-time)
 
 ## :material-bucket-outline: S3 Polling Method
 
@@ -65,7 +65,7 @@ In Databahn:
    * AWS region
    * IAM credentials or role
 
-Step 6: Validate ingestion
+### Step 6: Validate ingestion
 
 Check Databahn for:
 
