@@ -1,5 +1,7 @@
 site_name: Welcome to Databahn documentation
 
+copyright: Copyright &copy; 2026 Databahn
+
 nav:
   - Home: README.md
   - Getting Started: gettingstarted.md
