@@ -2,7 +2,7 @@
 
 ## :material-information-outline: Overview
 
-Use this procedure to send Databahn strong security signals into Microsoft Sentinel.
+Use this procedure to send strong security signals from Databahn into Microsoft Sentinel.
 
 ## :material-stairs: Steps
 
